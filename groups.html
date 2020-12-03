@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>IHDEA | Recommendations</title>
+  <title>IHDEA | Working Groups</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -20,6 +20,7 @@
   <!-- Libraries CSS Files -->
   <link href="lib/fontawesome/css/all.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -42,11 +43,11 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li><a href="index.html">Home</a></li>
-          <li class="menu-active"><a href="recommendations.html">Recommendations</a></li>
+          <li><a href="recommendations.html">Recommendations</a></li>
           <li><a href="standards.html">Standards</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="tools.html">Tools</a></li>
-          <li><a href="groups.html">Groups</a></li>
+          <li class="menu-active"><a href="groups.html">Groups</a></li>
           <li><a href="events.html">Events</a></li>
           <li><a href="connect.html">Connect</a></li>
           <li><a href="about.html">About</a></li>
@@ -56,87 +57,73 @@
   </header><!-- #header -->
 
   <main id="main">
-	<!--==========================
-     Statement Section
+
+    <!--==========================
+      Section
     ============================-->
     <section>
       <div class="container">
         <div class="section-header">
-          <h2>Recommendations</h2>
-          <p>The Data Environment has many components that need to function cohesively in order to enable scientific discovery. The IHDEA recommends these components:</p>
+          <h2>Working Groups</h2>
         </div>
+		<div class="wow">
+			<dl>
+				<dt>SPASE Registry</dt>
+				<dd>Task is the organisation and maintenance of the metadata registries.</dd>
+			</dl>
+		</div>
+		<div class="wow">
+			<dl>
+				<dt>Simulation Metadata Standards</dt>
+				<dd>Task is the implementation of Metadata standard to simulation models, simulations runs, and simulation output (CCMC and IMPEx). In particular, 
+				defining metadata for simulation models and generated data, as well as defining a standard for an execution interface.</dd>
+			</dl>
+		</div>
+		<div class="wow">
+			<dl>
+				<dt>Coordinate systems Standardisation</dt>
+				<dd>Task is to describe coordinate systems in unambigous terms, especially where reference models differ over time [e.g. GSM (IGRF-12 vs IGRF-13)].</dd>
+			</dl>
+		</div>
+		<div class="wow">
+			<dl>
+				<dt>IHDEA Website and Community Awareness</dt>
+				<dd>Task is to ensure an effective IHDEA website and to define an approach to improve community awareness.</dd>
+			</dl>
+		</div>
+		<div class="wow">
+			<dl>
+				<dt>Use Metrics</dt>
+				<dd>Task is to quantity usage metrics for tools, services and web sites, especially the use of Python tools and access to data through web services.</dd>
+			</dl>
+		</div>
+		<div class="wow">
+			<dl>
+				<dt>SPASE 3.0</dl>
+				<dd>Task is to define the next version of the SPASE information model.</dd>
+			</dl>
+		</div>
+		<div class="wow">
+			<dl>
+				<dt>Community Metadata Assessment</dt>
+				<dd>Task is to define improvements to the SPASE information to enhance integration with IVOA/UCD and to extend the adoption of the SPASE information 
+				model by additional data centers (i.e. IUGONET, CEF, AMDA).</dd>
+			</dl>
+		</div>
+		<div class="wow">
+			<dl>
+				<dt>HAPI</dt>
+				<dd>Task is to improve the HAPI service and to expand adoption of of HAPI servers at more data centers.</dd>
+			</dl>
+		</div>
+		<div class="wow">
+			<dl>
+				<dt>Data DOI</dt>
+				<dd>Task is to define the process for obtaining DATA DOI and the coordination of the task amoung the data centers.</dd>
+			</dl>
+		</div>
+   </section><!-- groups -->
 
-        <div class="row">
-
-          <div class="col-lg-6">
-            <div class="box wow">
-              <div class="icon"><i class="fas fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="">Data Formats</a></h4>
-			  <div class="description">
-              <ul>
-                <li>FITS</li>
-                <li>CDF</li>
-                <li>NetCDF</li>
-                <li>Plain Text Tables</li>
-			  </ul>
-			  </div>
-			  <div class="right"><a href="tools.html?#formats">More...</a></div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="box wow">
-              <div class="icon"><i class="fas fa-image"></i></div>
-              <h4 class="title"><a href="">Metadata</a></h4>
-			  <div class="description">
-			  <ul>
-			    <li>SPASE</li>
-				<li>ISTP/CDF</li>
-				<li>DOI</li>
-			  </ul>
-			  <br/>
-			  </div>
-  			  <div class="right"><a href="standards.html">More...</a></div>
-          </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="box wow" data-wow-delay="0.2s">
-              <div class="icon"><i class="fas fa-chart-bar"></i></div>
-              <h4 class="title"><a href="">API</a></h4>
-			  <div class="description">
-			  <ul>
-				<li>HAPI</li>
-				<li>DAS2</li>
-				<li>SPASE Registry</li>
-			  </ul>
-			  <br/>
-			  </div>
-			  <div class="right"><a href="services.html">More...</a></div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="box wow" data-wow-delay="0.2s">
-              <div class="icon"><i class="fas fa-map"></i></div>
-              <h4 class="title"><a href="">Tools</a></h4>
-			  <div class="description">
-			  <ul>
-			      <li>SPEDAS</li>
-				  <li>Autoplot</li>
-				  <li>Python</li>
-				  <li>Helioviewer</li>
-			  </ul>
-              </div>
-			  <div class="right"><a href="tools.html">More...</a></div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-	
   </main>
 
   <!--==========================
@@ -159,7 +146,6 @@
 
   <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
 
-  <!-- JavaScript Libraries -->
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
