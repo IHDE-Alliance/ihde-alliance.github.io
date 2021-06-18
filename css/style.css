@@ -599,6 +599,10 @@ table.faq i {
 	text-align: right;
 }
 
+.center-text {
+	text-align: center;
+}
+
 /*------------------------------
  About Styles
 --------------------------------*/
