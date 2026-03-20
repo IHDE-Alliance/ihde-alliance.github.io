@@ -57,7 +57,171 @@
   </header><!-- #header -->
 
   <main id="main">
+	  
+<!--==========================
+  Section
+============================-->
+<section>
+  <div class="container">
+    <div class="section-header">
+      <h2>Working Groups</h2>
+    </div>
 
+    <p>To achieve its goals (see <a href="IHDEA-Charter-20191126.pdf">IHDEA Charter</a>), 
+       a handful of working groups have been setup.</p>
+
+    <p>JOIN US! If you're interested in participating in any of the working groups listed below, 
+       please contact the working groups lead(s) using 
+       <a href="https://docs.google.com/document/d/1bB3Js5hh8QlrpNn41jq9zom1jq1Vuz6kE56QyKrK0o4/" target="_blank">this link</a>.
+    </p>
+
+    <p>...or propose a new working group! More info in the 
+       <a href="IHDEA-Bylaws-20251205a.pdf">IHDEA Bylaws</a>.
+    </p>
+
+    <!-- ==========================
+         Search Bar
+    =============================== -->
+    <div class="mb-3 mt-4">
+      <input id="wgSearch" type="text" class="form-control" placeholder="Search working groups..."
+             onkeyup="filterWGTable()">
+    </div>
+
+    <!-- ==========================
+         Working Groups Table
+    =============================== -->
+    <div class="table-responsive mt-3">
+      <table id="wgTable" class="table table-bordered table-striped">
+        <thead class="table-light">
+          <tr>
+            <th>Working Group</th>
+            <th>Lead(s)</th>
+            <th>Description</th>
+            <th>Join / Info</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Coordinate Systems Standardisation</strong></td>
+            <td>Bob Weigel (George Mason University)</td>
+            <td>Goal is to describe coordinate systems in unambiguous terms, especially where reference models 
+				differ over time [e.g. GSM (IGRF-12 vs IGRF-13)]. This working group meets every month. More 
+				information 
+				<a href="https://drive.google.com/drive/folders/153kkBePjwpaE3RpFBp4lCdMJ7I_Rnhn8" target="_blank">here</a>.</td>
+            <td>
+              <a href="https://groups.io/g/hdrl-stct/" target="_blank">Join</a> |
+              <a href="https://drive.google.com/drive/folders/153kkBePjwpaE3RpFBp4lCdMJ7I_Rnhn8" target="_blank">Info</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td><strong>Data Access Layer</strong></td>
+            <td>Jon VandeGriff (JHU/APL), Jon Cook (Starion for ESA), Jack Ireland (NASA)</td>
+            <td>Goal is to improve the Heliophysics API (HAPI), International  Virtual  Observatory Alliance (IVOA) 
+				data access protocols (e.g. Table Access Protocol or TAP) and Virtual Solar Observatory (VSO) services 
+				and to expand adoption of supporting servers at more data centers.</td>
+            <td>
+              <a href="https://docs.google.com/document/d/1bB3Js5hh8QlrpNn41jq9zom1jq1Vuz6kE56QyKrK0o4/" target="_blank">Join</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td><strong>DOI for Science</strong></td>
+            <td>Joana Oliveira (TpZ for ESA), Rebecca Ringuette (ADNET for NASA)</td>
+            <td>Goal is to define the process for obtaining datasets' DOI and the coordination of the task amoung the data centers.</td>
+            <td>
+              <a href="https://docs.google.com/document/d/1bB3Js5hh8QlrpNn41jq9zom1jq1Vuz6kE56QyKrK0o4/" target="_blank">Join</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td><strong>Heliophysics Semantics and Capabilities</strong></td>
+            <td>Ryan McGranaghan (NASA JPL), Baptiste Cecconi (Observatoire de Paris)</td>
+            <td>The purpose of this working group is to align, converge, and accelerate ongoing efforts to represent Heliophysics 
+				knowledge in ways that strengthen both our data ecosystem and our community. Goals include creation of a 
+				glossary/dictionary for Heliophysics, establishment of processes for harmonization across vocabularies including 
+				crosswalks from Heliophysics data and information models to other community semantic resources, to foster the 
+				creation of semantic tools for Heliophysics, and to serve as a forum for more sustained and cross-group and -domain exchange. 
+				It will be a venue for bringing scholarship around knowledge commons into the Heliophysics community and creating the 
+				foundation for our own knowledge commons.</td>
+            <td>
+              <a href="https://docs.google.com/document/d/1bB3Js5hh8QlrpNn41jq9zom1jq1Vuz6kE56QyKrK0o4/" target="_blank">Join</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td><strong>Python in Heliophysics Community (PyHC)</strong></td>
+            <td>Julie Barnum (LASP)</td>
+            <td>Goal is to survey the use of Python in the Heliophysics domain and report on tools, services and web sites, 
+				  especially through the Python in Heliophysics Community (PyHC) initiative, 
+				  see <a href=https://heliopython.org/ target="_blank">PyHC website</a>. PyHC’s meetings/telecons are all recorded 
+				  and posted to the PyHC’s YouTube channel (<a href="https://www.youtube.com/@pythoninheliophysicscommun3732" target="_blank">link</a>), 
+				  important documents are displayed on the PyHC website (<a href="https://heliopython.org/docs/" target="_blank">Documents tab</a>), 
+				  bi-annual meeting planning materials and notes are on Google drive (each meeting’s folder can be located by going to the meeting’s 
+				  web page from the <a href="https://heliopython.org/meetings/" target="_blank">PyHC website Meetings tab</a>), and finally, DOIs 
+				  related to PyHC can be found on Zenodo Communities 
+				  (<a href="https://zenodo.org/communities/heliopython/records?q=&l=list&p=1&s=10&sort=newest" target="_blank">link</a>). 
+				  PyHC has bi-weekly telecons, and bi-annual meetings.</td>
+            <td>
+              <a href="https://heliopython.org/contact/" target="_blank">Join</a> |
+              <a href="https://heliopython.org/" target="_blank">Website</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td><strong>Science Platforms Coordination</strong></td>
+            <td>Shawn Polson (LASP), Jan Reerink (ESA)</td>
+            <td>Goal is to develop international standard software computing environments for Heliophysics. Further information and source files are kept in <a href="https://github.com/heliophysicsPy/science-platforms-coordination" target="_blank">GitHub</a></td>
+            <td>
+              <a href="https://github.com/heliophysicsPy/science-platforms-coordination" target="_blank">GitHub</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td><strong>SPASE Information Model</strong></td>
+            <td>Brian Thomas (NASA), Arnaud Masson (ESA)</td>
+            <td>Goal is the improvement of the SPASE Information Model for describing observational and derived data, and for describing simulation models, 
+                simulations runs, and simulation output (inc. NASA Community Coordinated Modeling Center or CCMC, ESA Virtual Space Weather Modelling Centre, VSWMC and European Union supported Integrated Medium for Planetary Exploration or IMPEx). In particular, defining metadata for simulation models and generated data, 
+                as well as defining a standard for an execution interface</td>
+            <td>
+              <a href="https://docs.google.com/document/d/1bB3Js5hh8QlrpNn41jq9zom1jq1Vuz6kE56QyKrK0o4/" target="_blank">Join</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td><strong>Standards Process</strong></td>
+            <td>Brian Thomas (NASA), Arnaud Masson (ESA)</td>
+            <td>Goal is to recommend and/or define a standard for execution interface. As needed, define a SPASE compliance information model and 
+              coordinate with the SPASE Information Model for implementation</td>
+            <td>
+              <a href="https://docs.google.com/document/d/1bB3Js5hh8QlrpNn41jq9zom1jq1Vuz6kE56QyKrK0o4/" target="_blank">Join</a>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================
+     Search Script
+=============================== -->
+<script>
+function filterWGTable() {
+  const input = document.getElementById("wgSearch");
+  const filter = input.value.toLowerCase();
+  const table = document.getElementById("wgTable");
+  const trs = table.getElementsByTagName("tr");
+
+  for (let i = 1; i < trs.length; i++) {
+    let rowText = trs[i].innerText.toLowerCase();
+    trs[i].style.display = rowText.includes(filter) ? "" : "none";
+  }
+}
+</script>
+
+<!--
     <!--==========================
       Section
     ============================-->
@@ -202,7 +366,7 @@
 -->
 
    </section><!-- groups -->
-
+-->
   </main>
 
   <!--==========================
